@@ -1,0 +1,50 @@
+login.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Course Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Course Registration System</h1></header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html" class="active">Login</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="mycourses.html">My Courses</a></li>
+        <li><a href="admin.html">Admin</a></li>
+    </ul>
+</nav>
+
+<main>
+    <h2>User Login</h2>
+    <form class="form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+
+        <label for="role">Role:</label>
+        <select id="role">
+            <option>Student</option>
+            <option>Faculty</option>
+            <option>Admin</option>
+        </select>
+
+        <button class="btn" type="submit">Login</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2025 University Registration System</p>
+</footer>
+
+</body>
+</html>
